@@ -1,4 +1,4 @@
-# Oriented Percolation - Aldous Flow Conjecture
+# Attempt at verifying Aldous oriented-percolation flow conjecture
 
 A formal verification in Lean 4 of the Aldous oriented-percolation flow conjecture.
 
@@ -75,10 +75,6 @@ The analytic framework is fully verified. To complete the proof of the Aldous co
 1. `width_limit`: √ε asymptotic for the width term W
 2. `err_linear`: Linear-in-ε bound for the collision/error term B
 3. `hLower/hUpper`: Deterministic squeeze W ≤ U ≤ W+B
-
-## License
-
-[Add your license here]
 
 ## References
 
